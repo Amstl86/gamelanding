@@ -20,14 +20,8 @@
 .header{
     display: flex;
     justify-content: space-between;
-}
-
-.header__list-item{
-    display: inline-block;
-}
-
-.header__list-item a{
-    text-decoration: none;
+    align-items: center;
+    padding-top: 40px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -36,4 +30,43 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.header__list-item{
+    display: inline-block;
+}
+
+.header__list-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__list-item + .header__list-item{
+    margin-left: 38px;
+}
+
+.header__settings{
+    display: flex;
+    align-items: center;
+}
+
+.header__language{
+    display: flex;
+    align-items: center;
+}
+
+.language{
+    padding-right: 6px;
+}
+
+.header__settings-line{
+    width: 0px;
+    height: 30px;
+    opacity: 0.5;
+    border: 0.873968px solid #FFFFFF;
+    margin: 0 23px;
+}
+
+.game-icons__xbox{
+    margin-right: 17px;
 }
